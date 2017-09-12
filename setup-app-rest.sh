@@ -26,8 +26,8 @@ echo "---> Forest creation ... DONE"
 echo "---> Data loading ... setup in progress"
 
 sh /Users/sbrooks/Desktop/mlcp-9.0.1/bin/mlcp.sh import -database $DATABASE -host localhost -port 8000 -username admin \
- -password admin -input_file_path /Users/sbrooks/Downloads/oscars -mode local \
- -output_uri_replace "/Users/sbrooks/Downloads,''" \
+ -password admin -input_file_path data/oscars -mode local \
+ -output_uri_replace "data,''" \
  -output_collections "$COLLECTION"
 
 echo "---> Data loading ... DONE"

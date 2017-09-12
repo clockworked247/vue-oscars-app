@@ -2,6 +2,13 @@
 
 > A Vue.js project
 
+## Data Setup - requires MarkLogic installation
+
+``` bash
+# create database & server, load data and create custom search
+sh setup-app-rest.sh
+```
+
 ## Build Setup
 
 ``` bash
@@ -15,4 +22,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
